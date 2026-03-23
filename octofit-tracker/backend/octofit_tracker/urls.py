@@ -10,7 +10,6 @@ from rest_framework.decorators import api_view
 
 
 
-@api_root = os.environ.get('CODESPACE_NAME')
 @api_view(['GET'])
 def api_root(request, format=None):
     codespace_name = os.environ.get('CODESPACE_NAME')
