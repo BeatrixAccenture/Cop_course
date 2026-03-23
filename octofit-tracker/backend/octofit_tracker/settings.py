@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'octofit_tracker.wsgi.application'
+WSGI_APPLICATION = 'octofit_tracker.octofit_tracker.wsgi.application'
 
 DATABASES = {
     'default': {
